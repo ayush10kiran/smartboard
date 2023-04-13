@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup Page</title>
+    <link rel="stylesheet" type="text/css" href="signup.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/EuroSchool.jpg/800px-EuroSchool.jpg" 
+          width="600" height="450">
+    </div>
+    <div class="signup-container">
+        <h1>Sign-up</h1>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject" required>
+                <option value="" disabled selected>Select a subject</option>
+                <option value="math">Math</option>
+                <option value="science">Physics</option>
+                <option value="history">Chemistry</option>
+                <option value="english">English</option>
+                <option value="english">Biology</option>
+                <option value="english">Physical Education</option>
+                <option value="english">Computer Science</option>
+            </select>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+            <input type="submit" value="Signup">
+        </form>
+    </div>
+</body>
+</html>

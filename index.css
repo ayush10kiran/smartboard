@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    background-image: url('https://image3.mouthshut.com/images/imagesp/925837106s.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+h1{
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 15px;
+    color:rgb(10, 48, 159);
+    font-style: bold;
+}
+
+.grade {
+    display: inline-block; 
+    margin: 0 auto; 
+    width: 300px;
+    height:100px;
+    background-color: wheat;
+    color:rgb(10, 48, 159)  ;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 150px;
+    font-size: 25px;    
+    border-width: 3px;
+    font-style: bold;
+    cursor: pointer;    
+}
+.grade:hover{background-color: burlywood ;} 

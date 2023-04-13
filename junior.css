@@ -1,0 +1,66 @@
+.logo{
+    position: absolute;
+    left: 70px;
+    top:80px   
+}
+
+
+h1{
+    position:absolute;
+    right: 100px;
+    font-size: 3.3em; 
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 15px;
+    color:rgb(10, 48, 159)  ;
+    background-color: white;
+    font-style: bold;
+}   
+
+
+.juniorgrades{
+    /* display: inline-block;  */
+    /* margin: 0 auto;  */
+    width: 200px;
+    height:100px;
+    background-color:aliceblue;
+    color:rgb(10, 48, 159)  ;
+    text-align: center;
+    margin-left: 90px;
+    font-size: 25px;    
+    border-width: 3px;
+    font-style: bold;
+    cursor: pointer;    
+}
+.juniorgrades:hover{background-color: lightblue ;} 
+
+#first{
+    margin-left: 750px;
+    position: absolute;
+    top: 150;
+}
+
+#second{
+    margin-left: 1020px;
+    position: absolute;
+    top: 150;
+}
+
+#third{
+    margin-left: 750px;
+    position: absolute;
+    top: 300;
+}
+
+#fourth{
+    margin-left: 1020px;
+    position: absolute;
+    top: 300;
+}
+
+#fifth{
+    margin-left: 885px;
+    position: absolute;
+    top: 450;
+}
+
+
